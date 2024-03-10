@@ -1,0 +1,13 @@
+spring:
+  kafka:
+    consumer:
+      group-id: test-loggers
+      auto-offset-reset: earliest
+    bootstrap-servers: localhost:9092
+
+tpd:
+  topic-name: den-topic
+  messages-per-request: 10
+
+server:
+  port: 8090
