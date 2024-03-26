@@ -4,17 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>ru.denisaql</groupId>
-	<artifactId>kafka-example</artifactId>
+	<artifactId>test-producer-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>kafka-example</name>
-	<description>Kafka and Spring Boot sample app by ThePracticalDeveloper</description>
+	<name>test-producer-app</name>
+	<description>Test producer application</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.3</version>
+		<version>2.6.3</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
